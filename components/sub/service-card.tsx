@@ -26,13 +26,13 @@ export const ServiceCard = ({
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] bg-gradient-to-br from-[#0300145e] to-[#000319] p-6 hover:scale-105 transition-all duration-300 max-w-sm"
     >
       {/* Icon */}
-      <div className="flex justify-center mb-4">
-        <div className="w-16 h-16 relative">
+      <div className="flex justify-center mb-3">
+        <div className="w-12 h-12 relative">
           <Image
             src={`/skills/${icon}`}
             alt={title}
-            width={64}
-            height={64}
+            width={48}
+            height={48}
             className="object-contain"
           />
         </div>
