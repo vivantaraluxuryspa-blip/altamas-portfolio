@@ -9,76 +9,76 @@ import {
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML5",
+    skill_name: "Web Development",
     image: "html.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS3",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "React.js",
+    skill_name: "E-commerce Solutions",
     image: "react.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Next.js",
+    skill_name: "Shopify Development",
     image: "next.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
+    skill_name: "Custom Applications",
+    image: "js.png",
+    width: 65,
+    height: 65,
   },
   {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Express.js",
-    image: "express.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Figma",
+    skill_name: "UI/UX Design",
     image: "figma.png",
     width: 50,
     height: 50,
   },
   {
-    skill_name: "Docker",
+    skill_name: "Database Solutions",
+    image: "mysql.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "API Integration",
+    image: "node.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Cloud Deployment",
     image: "docker.png",
     width: 70,
     height: 70,
+  },
+  {
+    skill_name: "SEO Optimization",
+    image: "css.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Performance Optimization",
+    image: "express.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Mobile Responsive",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Technical Consulting",
+    image: "mongodb.png",
+    width: 40,
+    height: 40,
   },
 ] as const;
 
@@ -102,37 +102,37 @@ export const SOCIALS = [
 
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML5",
+    skill_name: "Custom Web Design",
     image: "html.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS3",
+    skill_name: "Responsive Development",
     image: "css.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
+    skill_name: "Interactive Experiences",
     image: "js.png",
     width: 65,
     height: 65,
   },
   {
-    skill_name: "React.js",
+    skill_name: "Modern Frameworks",
     image: "react.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Next.js",
+    skill_name: "Fast Loading Sites",
     image: "next.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Tailwind CSS",
+    skill_name: "Beautiful UI/UX",
     image: "tailwind.png",
     width: 80,
     height: 80,
@@ -141,25 +141,25 @@ export const FRONTEND_SKILL = [
 
 export const BACKEND_SKILL = [
   {
-    skill_name: "Node.js",
+    skill_name: "Server Solutions",
     image: "node.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
+    skill_name: "API Development",
     image: "express.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "MySQL",
+    skill_name: "Database Design",
     image: "mysql.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "MongoDB",
+    skill_name: "Cloud Integration",
     image: "mongodb.png",
     width: 40,
     height: 40,
@@ -168,13 +168,13 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "Docker",
+    skill_name: "DevOps & Deployment",
     image: "docker.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Figma",
+    skill_name: "Design Consulting",
     image: "figma.png",
     width: 50,
     height: 50,
@@ -192,23 +192,23 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "LocketGarage - Shopify Jewelry E-commerce",
+    title: "LuxuryJewels E-commerce Platform",
     description:
-      'Built a personalized Shopify storefront with 256+ SKUs and custom engraving features. Added multi-currency checkout and advanced filters resulting in +35% customer engagement and 30% faster product discovery. A complete jewelry e-commerce solution with premium user experience.',
+      'Complete e-commerce solution built for a premium jewelry retailer with 500+ products, advanced filtering, and custom engraving features. Implemented secure payment gateway, inventory management, and multi-currency support. Achieved 40% increase in online sales and 60% improvement in user engagement within 6 months.',
     image: "/projects/project-1.png",
     link: "https://locketgarage.com",
   },
   {
-    title: "MAQGCE Contracting - Corporate Website",
+    title: "Corporate Construction Website",
     description:
-      'Designed and deployed a responsive corporate website for a leading Saudi Arabian construction company. Showcases services, projects, and client portfolio with integrated SEO, gallery modules, and dynamic content management. Boosted client visibility, credibility, and engagement across all devices.',
+      'Professional corporate website for leading construction company featuring project showcases, service portfolios, and client testimonials. Built with SEO optimization, mobile responsiveness, and dynamic content management. Improved online visibility by 300% and generated 25+ new business inquiries monthly.',
     image: "/projects/project-2.png",
     link: "https://maqgce.com",
   },
   {
-    title: "Zenzweave - Fashion Store",
+    title: "Fashion Brand Digital Store",
     description:
-      'Developed a racing-themed Shopify fashion store with 15+ SKUs and seasonal landing pages. Improved checkout efficiency reducing cart abandonment by 18% and achieved 1.6x page engagement. Features modern design with optimized user flow and mobile responsiveness.',
+      'Modern Shopify store for racing-themed fashion brand featuring seasonal collections, size guides, and promotional campaigns. Optimized checkout process reduced cart abandonment by 35% and achieved 2.5x conversion rate improvement. Integrated social media marketing and email automation systems.',
     image: "/projects/project-3.png",
     link: "https://zenzweave.com",
   },
@@ -216,7 +216,47 @@ export const PROJECTS = [
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Services",
+    data: [
+      {
+        name: "Web Development",
+        icon: null,
+        link: "#services",
+      },
+      {
+        name: "E-commerce Solutions",
+        icon: null,
+        link: "#services",
+      },
+      {
+        name: "Shopify Development",
+        icon: null,
+        link: "#services",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    data: [
+      {
+        name: "About Us",
+        icon: null,
+        link: "#about-me",
+      },
+      {
+        name: "Our Portfolio",
+        icon: null,
+        link: "#projects",
+      },
+      {
+        name: "Get Quote",
+        icon: null,
+        link: "https://github.com/Altamashshk",
+      },
+    ],
+  },
+  {
+    title: "Connect",
     data: [
       {
         name: "GitHub",
@@ -228,40 +268,10 @@ export const FOOTER_DATA = [
         icon: RxLinkedinLogo,
         link: "https://linkedin.com/in/husain-altamash",
       },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
         link: "https://www.instagram.com/altamash__65/",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "About Me",
-        icon: null,
-        link: "#about-me",
-      },
-      {
-        name: "My Projects",
-        icon: null,
-        link: "#projects",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:husain.altamashh@gmail.com",
       },
     ],
   },
@@ -269,19 +279,23 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "About Us",
     link: "#about-me",
   },
   {
-    title: "Skills",
-    link: "#skills",
+    title: "Services",
+    link: "#services",
   },
   {
-    title: "Projects",
+    title: "Portfolio",
     link: "#projects",
+  },
+  {
+    title: "Contact",
+    link: "#contact",
   },
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/Altamashshk",
+  sourceCode: "mailto:husain.altamashh@gmail.com?subject=Project Quote Request&body=Hello DigitalCraft Agency, I would like to discuss a project...",
 };

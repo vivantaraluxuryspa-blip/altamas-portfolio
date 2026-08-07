@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Full Stack Developer & Shopify Expert
+            Digital Agency & E-commerce Solutions
           </h1>
         </motion.div>
 
@@ -33,11 +33,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Building{" "}
+            We create{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              scalable web applications
+              exceptional digital experiences
             </span>{" "}
-            and e-commerce solutions.
+            that drive business growth.
           </span>
         </motion.div>
 
@@ -45,17 +45,17 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Developer & Shopify Specialist with experience building and customizing e-commerce stores. 
-          I&apos;ve built 15+ Shopify stores and engineered multiple full-stack web applications with React.js, Node.js, and MySQL/MongoDB 
-          to enhance usability and performance.
+          DigitalCraft Agency specializes in building custom websites, e-commerce platforms, and 
+          scalable web applications. From Shopify stores to complex React applications, we deliver 
+          solutions that combine stunning design with powerful functionality.
         </motion.p>
 
         <motion.a
-          href="#projects"
+          href="#services"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          View My Work
+          Our Services
         </motion.a>
       </div>
 
