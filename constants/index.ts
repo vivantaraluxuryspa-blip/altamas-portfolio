@@ -21,7 +21,7 @@ export const SERVICES_DATA = [
     ]
   },
   {
-    icon: "next.png",
+    icon: "stripe.png",
     title: "E-commerce Solutions",
     description: "Complete online store development with secure payment integration and inventory management systems.",
     features: [
@@ -33,7 +33,7 @@ export const SERVICES_DATA = [
     ]
   },
   {
-    icon: "figma.png",
+    icon: "next.png",
     title: "Shopify Development",
     description: "Expert Shopify store creation and customization to boost your online sales and brand presence.",
     features: [
@@ -45,7 +45,7 @@ export const SERVICES_DATA = [
     ]
   },
   {
-    icon: "tailwind.png", 
+    icon: "figma.png", 
     title: "UI/UX Design",
     description: "Beautiful, intuitive interfaces designed to enhance user engagement and conversion rates.",
     features: [
