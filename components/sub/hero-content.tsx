@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Digital Agency & E-commerce Solutions
+            Forging Digital Excellence
           </h1>
         </motion.div>
 
@@ -33,11 +33,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            We create{" "}
+            Crafting{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               exceptional digital experiences
             </span>{" "}
-            that drive business growth.
+            that drive success.
           </span>
         </motion.div>
 
@@ -45,9 +45,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          DigitalCraft Agency specializes in building custom websites, e-commerce platforms, and 
-          scalable web applications. From Shopify stores to complex React applications, we deliver 
-          solutions that combine stunning design with powerful functionality.
+          I&apos;m Alex Forged, a passionate developer who specializes in creating custom web solutions, 
+          e-commerce platforms, and stunning digital experiences. From concept to deployment, I forge 
+          digital excellence that transforms businesses and engages users.
         </motion.p>
 
         <motion.a
@@ -55,7 +55,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Our Services
+          View Services
         </motion.a>
       </div>
 

@@ -30,7 +30,7 @@ export const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; DigitalCraft Agency {new Date().getFullYear()}. All rights reserved.
+          &copy; Alex Forged {new Date().getFullYear()}. All rights reserved.
         </div>
       </div>
     </div>

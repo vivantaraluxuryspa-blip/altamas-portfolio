@@ -9,7 +9,7 @@ import {
 
 export const SKILL_DATA = [
   {
-    skill_name: "Web Development",
+    skill_name: "Custom Web Development",
     image: "html.png",
     width: 80,
     height: 80,
@@ -27,16 +27,22 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "Custom Applications",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
     skill_name: "UI/UX Design",
     image: "figma.png",
     width: 50,
     height: 50,
+  },
+  {
+    skill_name: "Mobile-First Design",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Performance Optimization",
+    image: "js.png",
+    width: 65,
+    height: 65,
   },
   {
     skill_name: "Database Solutions",
@@ -63,19 +69,13 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "Performance Optimization",
+    skill_name: "Modern Frameworks",
     image: "express.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Mobile Responsive",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Technical Consulting",
+    skill_name: "Scalable Architecture",
     image: "mongodb.png",
     width: 40,
     height: 40,
@@ -279,7 +279,7 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About Us",
+    title: "About",
     link: "#about-me",
   },
   {
@@ -287,7 +287,7 @@ export const NAV_LINKS = [
     link: "#services",
   },
   {
-    title: "Portfolio",
+    title: "Work",
     link: "#projects",
   },
   {
@@ -297,5 +297,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "mailto:husain.altamashh@gmail.com?subject=Project Quote Request&body=Hello DigitalCraft Agency, I would like to discuss a project...",
+  sourceCode: "mailto:husain.altamashh@gmail.com?subject=Project Quote Request&body=Hello Alex, I would like to discuss a project with you...",
 };
