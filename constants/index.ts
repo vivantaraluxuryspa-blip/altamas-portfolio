@@ -7,6 +7,81 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+export const SERVICES_DATA = [
+  {
+    icon: "react.png",
+    title: "Custom Web Development",
+    description: "Modern, responsive websites built with the latest technologies for optimal performance and user experience.",
+    features: [
+      "React.js & Next.js Development",
+      "Responsive Design", 
+      "Performance Optimization",
+      "SEO Implementation",
+      "Modern UI/UX"
+    ]
+  },
+  {
+    icon: "next.png",
+    title: "E-commerce Solutions",
+    description: "Complete online store development with secure payment integration and inventory management systems.",
+    features: [
+      "Shopping Cart Integration",
+      "Payment Gateway Setup",
+      "Inventory Management", 
+      "Order Tracking System",
+      "Admin Dashboard"
+    ]
+  },
+  {
+    icon: "figma.png",
+    title: "Shopify Development",
+    description: "Expert Shopify store creation and customization to boost your online sales and brand presence.",
+    features: [
+      "Custom Shopify Themes",
+      "App Integration",
+      "Store Optimization",
+      "Multi-currency Support",
+      "Mobile Optimization"
+    ]
+  },
+  {
+    icon: "tailwind.png", 
+    title: "UI/UX Design",
+    description: "Beautiful, intuitive interfaces designed to enhance user engagement and conversion rates.",
+    features: [
+      "User Interface Design",
+      "User Experience Research",
+      "Wireframing & Prototyping",
+      "Brand Integration", 
+      "Accessibility Standards"
+    ]
+  },
+  {
+    icon: "node.png",
+    title: "API Development", 
+    description: "Robust backend solutions and API integrations to power your applications and connect systems.",
+    features: [
+      "RESTful API Development",
+      "Database Design",
+      "Third-party Integrations",
+      "Authentication Systems",
+      "Data Security"
+    ]
+  },
+  {
+    icon: "docker.png",
+    title: "Performance & Deployment",
+    description: "Fast, reliable hosting solutions with continuous deployment and performance monitoring.",
+    features: [
+      "Cloud Deployment",
+      "Performance Optimization", 
+      "SSL Certificates",
+      "Backup Solutions",
+      "24/7 Monitoring"
+    ]
+  }
+] as const;
+
 export const SKILL_DATA = [
   {
     skill_name: "Custom Web Development",
