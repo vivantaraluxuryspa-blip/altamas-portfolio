@@ -67,6 +67,7 @@ space-portfolio/
   |- public/
   |- .eslintrc.json
   |- .gitignore
+  |- altamas-portfolio-updated.zip
   |- eslint.config.mjs
   |- netlify.toml
   |- next-env.d.ts
