@@ -69,6 +69,7 @@ space-portfolio/
   |- .gitignore
   |- eslint.config.mjs
   |- netlify.toml
+  |- next-env.d.ts
   |- next.config.js
   |- package-lock.json
   |- package.json
